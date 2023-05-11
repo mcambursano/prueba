@@ -129,6 +129,12 @@
             color: #F9A825;
             border-color: #F9A825;
         }
+
+        @media screen and (min-width: 321px) and (max-width: 1023px) {
+            .__coverPage-content {
+                width: 100%;
+            }
+        }
     }
 /************************
         SMARTPHONE
@@ -139,10 +145,11 @@
         width: 60vw;
     }
     .__coverPage-content h1 {
-        font-size:0.7rem;
+        font-size:1rem;
     }
     .__coverPage-content h3 {
-        font-size:0.5em;
+        font-size:0.8em;
+
     }
 
 
